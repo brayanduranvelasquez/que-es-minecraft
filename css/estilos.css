@@ -1,0 +1,115 @@
+.header {
+  font-size: 16px;
+  padding: 2em 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__titulo {
+    font-size: 1.76em; }
+  .header__enlaces {
+    display: flex;
+    flex-direction: row; }
+    .header__enlaces a {
+      display: inline-block;
+      font-size: 1.12em;
+      margin: 0 10px;
+      color: #e2e1e1; }
+      .header__enlaces a:hover {
+        color: white; }
+    .header__enlaces .is-active {
+      color: white;
+      cursor: default; }
+
+@media screen and (max-width: 680px) {
+  .header {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .header__titulo {
+      margin-bottom: 10px; } }
+@media screen and (max-width: 526px) {
+  .header {
+    font-size: 13px;
+    flex-direction: column; }
+    .header__titulo {
+      margin-bottom: 10px; } }
+@media screen and (max-width: 430px) {
+  .header__enlaces a i {
+    display: none; } }
+.aside {
+  font-size: 16px;
+  background-color: #fcfcfc; }
+  .aside__titulo {
+    font-size: 1.62em; }
+  .aside__populares {
+    font-size: 1.30em;
+    padding: 5px; }
+    .aside__populares a {
+      display: block;
+      margin-bottom: 1.25em; }
+
+.button-fb {
+  background-color: #0066ff;
+  color: white; }
+  .button-fb:hover {
+    color: #ebebeb; }
+
+.button-ig {
+  background-color: #8209f3;
+  color: white; }
+  .button-ig:hover {
+    color: #ebebeb; }
+
+.button-yt {
+  background-color: #f50606;
+  color: white; }
+  .button-yt:hover {
+    color: #ebebeb; }
+
+.button-tw {
+  background-color: #0099ff;
+  color: white; }
+  .button-tw:hover {
+    color: #ebebeb; }
+
+.lista {
+  list-style-type: square;
+  margin-left: 1.25em; }
+
+.text-center {
+  text-align: center; }
+
+.margin-auto {
+  margin: auto; }
+
+body {
+  background-color: #445050;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.container-fluid {
+  background-color: white;
+  width: 100%;
+  max-width: 1700px;
+  margin: auto;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px; }
+
+@media screen and (min-width: 2000px) {
+  .container-fluid {
+    font-size: 25px;
+    font-weight: 550; } }
+@media screen and (max-width: 769px) {
+  .container-fluid {
+    font-size: 18px;
+    font-weight: 550; } }
+@media screen and (max-width: 500px) {
+  .container-fluid {
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 550; } }
+
+/*# sourceMappingURL=estilos.css.map */

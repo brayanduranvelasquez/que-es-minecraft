@@ -1,0 +1,19 @@
+.aside {
+    font-size: 16px;
+    background-color: rgb(252, 252, 252);
+
+    &__titulo {
+        font-size: 1.62em;
+    }
+
+    &__populares {
+        font-size: 1.30em;
+        padding: 5px;
+
+        a{
+            display: block;
+            margin-bottom: 1.25em;  
+        }
+        
+    }
+}

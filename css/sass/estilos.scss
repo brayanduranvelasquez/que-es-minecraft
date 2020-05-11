@@ -1,0 +1,47 @@
+@import 'import/header';
+@import 'import/aside';
+@import 'import/complementos';
+
+body {
+    background-color: rgb(68, 80, 80);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    background-color: white;
+    width: 100%;
+    max-width: 1700px;
+    margin: auto;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+@media screen and(min-width: 2000px){
+
+    .container-fluid {
+        font-size: 25px;
+        font-weight: 550;
+    }
+
+}
+
+@media screen and(max-width: 769px){
+
+    .container-fluid {
+        font-size: 18px;
+        font-weight: 550;
+    }
+
+}
+
+@media screen and(max-width: 500px){
+
+    .container-fluid {
+        font-size: 16px;
+        line-height: 35px;
+        font-weight: 550;
+    }
+
+}
